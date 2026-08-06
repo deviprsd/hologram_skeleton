@@ -1,0 +1,5 @@
+vendor/snabbdom/ copied verbatim from bartblast/hologram, path assets/js/vendor/snabbdom, at commit:
+
+  009d92a9def65df7e5679e9284ec868d4974ba48 (dev, 2026-08-04)
+
+No modifications - this is exactly what's in the main repo right now.

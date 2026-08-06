@@ -1,0 +1,11 @@
+{
+  "name": "hologram-991-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node verify.mjs"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.0"
+  }
+}
