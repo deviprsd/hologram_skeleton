@@ -14,8 +14,8 @@ defmodule HologramSkeleton.KeydownUndefinedKeyPage do
     ~HOLO"""
     <h1>keydown whose event.key is undefined</h1>
     <p>
-      Browsers can fire a keydown with no <code>key</code>, e.g. when a password manager or
-      autofill fills a field. The button dispatches one at each input.
+      A keydown can reach the page with no <code>key</code>.
+      The button dispatches one at each input.
     </p>
     <button id="fire" $click="fire">Fire keydown with key undefined</button>
     <input id="plain" $key_down="pressed" placeholder="$key_down">
