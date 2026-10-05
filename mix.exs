@@ -59,7 +59,7 @@ defmodule HologramSkeleton.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:bandit, "~> 1.5"},
-      {:hologram, "~> 0.11.0"}
+      {:hologram, github: "bartblast/hologram", ref: "b17045aac96982c2c2f745def5dd90427de124b8"}
     ]
   end
 
